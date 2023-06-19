@@ -11,7 +11,10 @@
       <span class="iconfont">&#xe600;</span>
       <span class="search_text">xxxxxxxxxxxxxxxxxxxxx</span>
     </div>
-    <div class="banner"></div>
+    <div class="banner">
+      <img class="banner_img" src="./assets/banner.png" alt="" />
+      <!-- <img class="banner_img" src="./assets/file.jpeg" alt="" /> -->
+    </div>
   </div>
 
   <!-- bottom area -->
@@ -76,6 +79,7 @@
   color: #b7b7b7;
   line-height: 3.2rem;
   border-radius: 1.6rem;
+  margin-bottom: 1.2rem;
   .iconfont {
     display: inline-block;
     position: relative;
@@ -86,6 +90,12 @@
   &_text {
     display: inline-block;
     font-size: 1.6rem;
+  }
+}
+
+.banner {
+  &_img {
+    width: 100%;
   }
 }
 
